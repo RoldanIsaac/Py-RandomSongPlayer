@@ -68,13 +68,14 @@ To support other file formats, modify the ext variable:
 Currently Windows-only due to os.startfile()
 For macOS/Linux support, consider replacing os.startfile() with:
 
-    ```python
+   ```python
     os.system(f'open "{filepath}"') # macOS
     os.system(f'xdg-open "{filepath}"') # Linux
 
-    ```
+   ```
 
 ## License 📄
 
 MIT License - Feel free to modify and distribute!
+
 
